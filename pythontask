@@ -1,0 +1,41 @@
+## Food ordering system using if else and el if statement.
+
+
+
+print("Welcome TO NAMAKKU SORU THAAN  MUKKIYAM BIRIYANI shop")
+m1="chikken biriyani"
+m2="mutton biriyani"
+menu=input("Select your menu:")
+
+if(menu==m1):
+ print("your yummy chiken biriyani is going to ready")
+ print("Select starters and breverages for free")
+ a1="tandoori and coke"
+ a2="grill and coke"
+ menu1=input("Select 1) Tandoori and coke / 2) Grill and Coke:")
+ if(menu1==a1):
+     print("Tandoori and coke is succesfully added to your menu")
+     print("And your total price is 250 Rs")
+     print("Thank you for visiting")
+ elif(menu1==a2):
+     print("Grill and coke is succesfully added  to your menu")
+     print("and your price is 300 Rs")
+     print("Thank you for visitiing")
+     
+     
+elif(menu==m2):  
+ print("your yummy Mutton biriyani is going to ready")
+ print("Select starters and breverages for free")
+ b1="mutton fry and coke"
+ b2="mutton chukka and coke"
+ menu2=input("Select 1) Mutton fry and coke / 2) Mutton chukka and Coke:")
+ if(menu2==b1):
+     print("Mutton fry and coke is succesfully added to your menu")
+     print("And your total price is 450 Rs")
+     print("Thank you for visiting")
+ elif(menu2==b2):
+     print("Mutton chukka and coke is succesfully added  to your menu")
+     print("and your price is 450 Rs")
+     print("Thank you for visitiing")
+else:
+    print("Not in list")
